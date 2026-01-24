@@ -4,6 +4,9 @@ const STREAMER = 'mastu';
 const API_URL = `https://pokerayou.info/api/streamer/${STREAMER}/pokedex`;
 const FILE = 'data.json';
 
+/**
+ * Appel API avec headers navigateur
+ */
 async function fetchPokedex() {
   const res = await fetch(API_URL, {
     headers: {
@@ -16,14 +19,17 @@ async function fetchPokedex() {
     }
   });
 
-  const data = await res.json().catch(() => null);
+  const json = await res.json().catch(() => null);
 
   return {
     status: res.status,
-    data
+    json
   };
 }
 
+/**
+ * Diff simple
+ */
 function diff(oldArr = [], newArr = []) {
   return newArr.filter(x => !oldArr.includes(x));
 }
@@ -31,15 +37,15 @@ function diff(oldArr = [], newArr = []) {
 async function main() {
   console.log('▶️ Appel API…');
 
-  const { status, data } = await fetchPokedex();
+  const { status, json: current } = await fetchPokedex();
 
-  // 🔎 DEBUG IMPORTANT
-  if (!data || !data.pokedex) {
+  // 🔒 Sécurité absolue
+  if (!current || !current.pokedex) {
     console.error('❌ Réponse API invalide');
     console.error('Status HTTP:', status);
-    console.error('Payload reçu:', JSON.stringify(data, null, 2));
-    console.log('ℹ️ Le script s’arrête sans erreur fatale.');
-    return; // ⬅️ on sort proprement
+    console.error('Payload reçu:', JSON.stringify(current, null, 2));
+    console.log('ℹ️ Arrêt propre du script (aucun crash)');
+    return;
   }
 
   let previous = null;
@@ -50,12 +56,12 @@ async function main() {
   if (previous) {
     const newCaught = diff(
       previous.pokedex.caught,
-      data.pokedex.caught
+      current.pokedex.caught
     );
 
     const newShiny = diff(
       previous.pokedex.shiny_caught,
-      data.pokedex.shiny_caught
+      current.pokedex.shiny_caught
     );
 
     if (newCaught.length > 0) {
@@ -67,14 +73,14 @@ async function main() {
     }
 
     if (!newCaught.length && !newShiny.length) {
-      console.log('ℹ️ Aucun changement');
+      console.log('ℹ️ Aucun changement détecté');
     }
   } else {
     console.log('📁 Initialisation du fichier de données');
   }
 
-  fs.writeFileSync(FILE, JSON.stringify(data, null, 2));
-  console.log('💾 Données sauvegardées');
+  fs.writeFileSync(FILE, JSON.stringify(current, null, 2));
+  console.log('💾 data.json mis à jour');
 }
 
 main().catch(err => {
