@@ -4,9 +4,6 @@ const STREAMER = 'mastu';
 const API_URL = `https://pokerayou.info/api/streamer/${STREAMER}/pokedex`;
 const FILE = 'data.json';
 
-/**
- * Simule un appel navigateur pour éviter le Forbidden
- */
 async function fetchPokedex() {
   const res = await fetch(API_URL, {
     headers: {
@@ -19,25 +16,31 @@ async function fetchPokedex() {
     }
   });
 
-  if (!res.ok) {
-    const text = await res.text();
-    throw new Error(`API error ${res.status}: ${text}`);
-  }
+  const data = await res.json().catch(() => null);
 
-  return res.json();
+  return {
+    status: res.status,
+    data
+  };
 }
 
-/**
- * Retourne les nouveaux éléments
- */
 function diff(oldArr = [], newArr = []) {
   return newArr.filter(x => !oldArr.includes(x));
 }
 
 async function main() {
-  console.log('▶️ Récupération du Pokédex…');
+  console.log('▶️ Appel API…');
 
-  const current = await fetchPokedex();
+  const { status, data } = await fetchPokedex();
+
+  // 🔎 DEBUG IMPORTANT
+  if (!data || !data.pokedex) {
+    console.error('❌ Réponse API invalide');
+    console.error('Status HTTP:', status);
+    console.error('Payload reçu:', JSON.stringify(data, null, 2));
+    console.log('ℹ️ Le script s’arrête sans erreur fatale.');
+    return; // ⬅️ on sort proprement
+  }
 
   let previous = null;
   if (fs.existsSync(FILE)) {
@@ -47,12 +50,12 @@ async function main() {
   if (previous) {
     const newCaught = diff(
       previous.pokedex.caught,
-      current.pokedex.caught
+      data.pokedex.caught
     );
 
     const newShiny = diff(
       previous.pokedex.shiny_caught,
-      current.pokedex.shiny_caught
+      data.pokedex.shiny_caught
     );
 
     if (newCaught.length > 0) {
@@ -63,18 +66,17 @@ async function main() {
       console.log('✨ NOUVEAU SHINY !!!', newShiny);
     }
 
-    if (newCaught.length === 0 && newShiny.length === 0) {
-      console.log('ℹ️ Aucun changement détecté');
+    if (!newCaught.length && !newShiny.length) {
+      console.log('ℹ️ Aucun changement');
     }
   } else {
     console.log('📁 Initialisation du fichier de données');
   }
 
-  fs.writeFileSync(FILE, JSON.stringify(current, null, 2));
-  console.log('💾 Données sauvegardées dans data.json');
+  fs.writeFileSync(FILE, JSON.stringify(data, null, 2));
+  console.log('💾 Données sauvegardées');
 }
 
 main().catch(err => {
-  console.error('❌ Erreur fatale:', err.message);
-  process.exit(1);
+  console.error('❌ Erreur inattendue:', err);
 });
