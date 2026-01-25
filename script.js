@@ -10,18 +10,30 @@ document.addEventListener('DOMContentLoaded', () => {
   async function getPokemon(id) {
     if (cache.has(id)) return cache.get(id);
 
+    // 1️⃣ Infos générales (sprite)
     const res = await fetch(`https://pokeapi.co/api/v2/pokemon/${id}`);
     const data = await res.json();
 
+    // 2️⃣ Infos espèces (noms traduits)
+    const speciesRes = await fetch(
+      `https://pokeapi.co/api/v2/pokemon-species/${id}`
+    );
+    const species = await speciesRes.json();
+
+    const frName =
+      species.names.find(n => n.language.name === 'fr')?.name ||
+      data.name;
+
     const pokemon = {
       id,
-      name: data.name,
+      name: frName,
       sprite: data.sprites.front_default
     };
 
     cache.set(id, pokemon);
     return pokemon;
   }
+
 
   function applyFilter() {
     grid.innerHTML = '';
