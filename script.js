@@ -1,15 +1,11 @@
 document.addEventListener('DOMContentLoaded', () => {
+  const grid = document.getElementById('grid');
   const meta = document.getElementById('meta');
-  const caughtEl = document.getElementById('caught');
-  const seenEl = document.getElementById('seen');
-  const shinyEl = document.getElementById('shiny');
-
-  if (!meta || !caughtEl || !seenEl || !shinyEl) {
-    console.error('❌ Un ou plusieurs éléments HTML sont manquants');
-    return;
-  }
+  const buttons = document.querySelectorAll('.filters button');
 
   const cache = new Map();
+  let pokemons = [];
+  let currentFilter = 'all';
 
   async function getPokemon(id) {
     if (cache.has(id)) return cache.get(id);
@@ -18,6 +14,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const data = await res.json();
 
     const pokemon = {
+      id,
       name: data.name,
       sprite: data.sprites.front_default
     };
@@ -26,30 +23,38 @@ document.addEventListener('DOMContentLoaded', () => {
     return pokemon;
   }
 
-  async function fillList(container, ids, shinyIds = []) {
-    container.innerHTML = '';
+  function applyFilter() {
+    grid.innerHTML = '';
 
-    for (const id of ids) {
-      try {
-        const p = await getPokemon(id);
-        const div = document.createElement('div');
-        div.className = 'pokemon';
+    const filtered = pokemons.filter(p => {
+      if (currentFilter === 'caught') return p.caught;
+      if (currentFilter === 'seen') return p.seen;
+      if (currentFilter === 'shiny') return p.shiny;
+      return true;
+    });
 
-        const isShiny = shinyIds.includes(id);
+    for (const p of filtered) {
+      const div = document.createElement('div');
+      div.className = 'pokemon' + (p.shiny ? ' shiny' : '');
 
-        div.innerHTML = `
-          <img src="${p.sprite}" alt="${p.name}">
-          <span class="${isShiny ? 'shiny' : ''}">
-            #${id} ${p.name}
-          </span>
-        `;
+      div.innerHTML = `
+        <img src="${p.sprite}" alt="${p.name}">
+        <div class="name">${p.name}</div>
+        <div class="id">#${p.id}</div>
+      `;
 
-        container.appendChild(div);
-      } catch (e) {
-        console.error('Erreur Pokémon', id, e);
-      }
+      grid.appendChild(div);
     }
   }
+
+  buttons.forEach(btn => {
+    btn.addEventListener('click', () => {
+      buttons.forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+      currentFilter = btn.dataset.filter;
+      applyFilter();
+    });
+  });
 
   fetch('./data.json')
     .then(res => res.json())
@@ -57,22 +62,25 @@ document.addEventListener('DOMContentLoaded', () => {
       meta.innerText =
         `Dernière mise à jour : ${new Date(data.last_updated).toLocaleString('fr-FR')}`;
 
-      await fillList(
-        caughtEl,
-        data.pokedex.caught,
-        data.pokedex.shiny_caught
-      );
+      const allIds = new Set([
+        ...data.pokedex.caught,
+        ...data.pokedex.seen,
+        ...data.pokedex.shiny_caught
+      ]);
 
-      await fillList(
-        seenEl,
-        data.pokedex.seen
-      );
+      const sortedIds = [...allIds].sort((a, b) => a - b);
 
-      await fillList(
-        shinyEl,
-        data.pokedex.shiny_caught,
-        data.pokedex.shiny_caught
-      );
+      for (const id of sortedIds) {
+        const info = await getPokemon(id);
+        pokemons.push({
+          ...info,
+          caught: data.pokedex.caught.includes(id),
+          seen: data.pokedex.seen.includes(id),
+          shiny: data.pokedex.shiny_caught.includes(id)
+        });
+      }
+
+      applyFilter();
     })
     .catch(err => {
       meta.innerText = 'Erreur lors du chargement des données';
