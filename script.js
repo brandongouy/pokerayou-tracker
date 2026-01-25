@@ -1,21 +1,26 @@
 fetch('./data.json')
   .then(res => res.json())
   .then(data => {
-    const caught = data.pokedex.caught.length;
-    const seen = data.pokedex.seen.length;
-    const shiny = data.pokedex.shiny_caught.length;
-    const updated = new Date(data.last_updated).toLocaleString('fr-FR');
+    // Meta
+    document.getElementById('meta').innerText =
+      `Dernière mise à jour : ${new Date(data.last_updated).toLocaleString('fr-FR')}`;
 
-    document.getElementById('content').innerHTML = `
-      <div class="stat">🟢 Capturés : <strong>${caught}</strong></div>
-      <div class="stat">👀 Vus : <strong>${seen}</strong></div>
-      <div class="stat shiny">✨ Shiny : ${shiny}</div>
-      <hr>
-      <small>Dernière mise à jour : ${updated}</small>
-    `;
+    fill('caught', data.pokedex.caught);
+    fill('seen', data.pokedex.seen);
+    fill('shiny', data.pokedex.shiny_caught);
   })
   .catch(err => {
-    document.getElementById('content').innerText =
+    document.getElementById('meta').innerText =
       'Erreur lors du chargement des données';
     console.error(err);
   });
+
+function fill(id, list) {
+  const ul = document.getElementById(id);
+  ul.innerHTML = '';
+  list.forEach(p => {
+    const li = document.createElement('li');
+    li.textContent = `#${p}`;
+    ul.appendChild(li);
+  });
+}
