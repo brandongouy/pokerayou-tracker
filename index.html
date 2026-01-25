@@ -1,44 +1,89 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
   <meta charset="UTF-8" />
   <title>Pokédex – Mastu</title>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
+
   <style>
     body {
       font-family: system-ui, sans-serif;
       background: #121212;
       color: #fff;
-      text-align: center;
       padding: 2rem;
     }
+
+    h1,
+    h2 {
+      text-align: center;
+    }
+
+    .container {
+      max-width: 1100px;
+      margin: auto;
+    }
+
+    .lists {
+      display: flex;
+      gap: 1rem;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
     .card {
       background: #1e1e1e;
       border: 3px solid #ff3a3a;
       border-radius: 12px;
-      padding: 1.5rem;
-      max-width: 420px;
-      margin: auto;
-      box-shadow: 8px 8px 0 rgba(0,0,0,0.5);
+      padding: 1rem;
+      width: 300px;
+      box-shadow: 6px 6px 0 rgba(0, 0, 0, 0.5);
     }
-    h1 { margin-top: 0; }
-    .stat {
-      font-size: 1.2rem;
-      margin: .5rem 0;
+
+    ul {
+      max-height: 420px;
+      overflow-y: auto;
+      padding-left: 1.2rem;
     }
+
     .shiny {
       color: gold;
       font-weight: bold;
     }
+
+    .meta {
+      text-align: center;
+      margin-bottom: 1rem;
+      opacity: 0.8;
+    }
   </style>
 </head>
+
 <body>
 
-  <div class="card">
+  <div class="container">
     <h1>Pokédex – Mastu</h1>
-    <div id="content">Chargement…</div>
+    <div class="meta" id="meta">Chargement…</div>
+
+    <div class="lists">
+      <div class="card">
+        <h2>🟢 Capturés</h2>
+        <ul id="caught"></ul>
+      </div>
+
+      <div class="card">
+        <h2>👀 Vus</h2>
+        <ul id="seen"></ul>
+      </div>
+
+      <div class="card">
+        <h2 class="shiny">✨ Shiny</h2>
+        <ul id="shiny"></ul>
+      </div>
+    </div>
   </div>
 
   <script src="script.js"></script>
 </body>
+
 </html>
