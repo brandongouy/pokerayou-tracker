@@ -20,41 +20,53 @@
     }
 
     .container {
-      max-width: 1100px;
+      max-width: 1200px;
       margin: auto;
-    }
-
-    .lists {
-      display: flex;
-      gap: 1rem;
-      flex-wrap: wrap;
-      justify-content: center;
-    }
-
-    .card {
-      background: #1e1e1e;
-      border: 3px solid #ff3a3a;
-      border-radius: 12px;
-      padding: 1rem;
-      width: 300px;
-      box-shadow: 6px 6px 0 rgba(0, 0, 0, 0.5);
-    }
-
-    ul {
-      max-height: 420px;
-      overflow-y: auto;
-      padding-left: 1.2rem;
-    }
-
-    .shiny {
-      color: gold;
-      font-weight: bold;
     }
 
     .meta {
       text-align: center;
       margin-bottom: 1rem;
       opacity: 0.8;
+    }
+
+    .lists {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 1rem;
+    }
+
+    .card {
+      background: #1e1e1e;
+      border: 3px solid #ff3a3a;
+      border-radius: 14px;
+      padding: 1rem;
+      box-shadow: 6px 6px 0 rgba(0, 0, 0, 0.5);
+    }
+
+    .pokemon {
+      display: flex;
+      align-items: center;
+      gap: .75rem;
+      margin-bottom: .5rem;
+    }
+
+    .pokemon img {
+      width: 56px;
+      height: 56px;
+      image-rendering: pixelated;
+    }
+
+    .pokemon span {
+      text-transform: capitalize;
+    }
+
+    .shiny {
+      background: linear-gradient(135deg, #ffd700, #ff9f00);
+      color: #000;
+      border-radius: 8px;
+      padding: .3rem .5rem;
+      font-weight: bold;
     }
   </style>
 </head>
@@ -68,17 +80,17 @@
     <div class="lists">
       <div class="card">
         <h2>🟢 Capturés</h2>
-        <ul id="caught"></ul>
+        <div id="caught"></div>
       </div>
 
       <div class="card">
         <h2>👀 Vus</h2>
-        <ul id="seen"></ul>
+        <div id="seen"></div>
       </div>
 
       <div class="card">
-        <h2 class="shiny">✨ Shiny</h2>
-        <ul id="shiny"></ul>
+        <h2>✨ Shiny</h2>
+        <div id="shiny"></div>
       </div>
     </div>
   </div>
