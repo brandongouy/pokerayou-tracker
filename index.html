@@ -25,6 +25,76 @@
       opacity: .8;
     }
 
+    .filters {
+      display: flex;
+      justify-content: center;
+      gap: .5rem;
+      margin-bottom: 1rem;
+      flex-wrap: wrap;
+    }
+
+    .filters button {
+      border-radius: 999px;
+      padding: .35rem .9rem;
+      border: 2px solid transparent;
+      background: #1e1e1e;
+      color: #fff;
+      cursor: pointer;
+      font-weight: bold;
+      opacity: .7;
+    }
+
+    .filters button.active {
+      opacity: 1;
+      transform: scale(1.05);
+    }
+
+    /* Couleurs filtres */
+    .filters .caught {
+      border-color: #2ecc71;
+      color: #2ecc71;
+    }
+
+    .filters .seen {
+      border-color: #f1c40f;
+      color: #f1c40f;
+    }
+
+    .filters .shiny {
+      border-color: #9b59b6;
+      color: #9b59b6;
+    }
+
+    .filters .missing {
+      border-color: #7f8c8d;
+      color: #7f8c8d;
+    }
+
+    .filters .active.caught {
+      background: #2ecc71;
+      color: #000;
+    }
+
+    .filters .active.seen {
+      background: #f1c40f;
+      color: #000;
+    }
+
+    .filters .active.shiny {
+      background: #9b59b6;
+      color: #fff;
+    }
+
+    .filters .active.missing {
+      background: #7f8c8d;
+      color: #fff;
+    }
+
+    .filters .active.all {
+      background: #ff3a3a;
+      color: #000;
+    }
+
     .grid {
       display: grid;
       grid-template-columns: repeat(auto-fill, minmax(110px, 1fr));
@@ -81,6 +151,14 @@
 
   <h1>Pokédex – Mastu</h1>
   <div class="meta" id="meta">Chargement…</div>
+
+  <div class="filters">
+    <button data-filter="all" class="active all">Tous</button>
+    <button data-filter="caught" class="caught">Capturés</button>
+    <button data-filter="seen" class="seen">Vus</button>
+    <button data-filter="shiny" class="shiny">Shiny</button>
+    <button data-filter="missing" class="missing">Manquants</button>
+  </div>
 
   <div class="grid" id="grid"></div>
 
