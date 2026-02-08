@@ -1,0 +1,1696 @@
+[
+    {
+        "_id": "694b1de59c8e18c994ba63ee",
+        "name": "Etoiles",
+        "twitch_username": "etoiles",
+        "avatar_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/4eecaab8-4de3-4bcc-b2b7-f3a03e8273a8-profile_image-300x300.png",
+        "banner_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/6aff0727-1452-4cf9-b541-223f79dcc090-channel_offline_image-1920x1080.jpeg",
+        "__v": 0,
+        "socials": {
+            "twitter": "AREtoiles",
+            "instagram": "etoilaisse",
+            "youtube": "AREtoilesMC",
+            "tiktok": "etoilestwitch"
+        },
+        "isHidden": false,
+        "starter_pokemon": null,
+        "minecraft_render_type": "trudging",
+        "session_id": 1,
+        "pokedex_caught": 0
+    },
+    {
+        "_id": "695ab7b59ce24a78befe506b",
+        "name": "Kameto",
+        "twitch_username": "kamet0",
+        "isHidden": false,
+        "avatar_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/dbca03f2-578c-454f-8fa8-a76b089164e4-profile_image-300x300.png",
+        "banner_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/2ffb280a-6f45-4d5b-9b79-6d65256b9be2-channel_offline_image-1920x1080.png",
+        "__v": 0,
+        "socials": {
+            "twitter": "kammeto",
+            "youtube": "KametoYTB",
+            "instagram": "kametolol",
+            "tiktok": "kametotv"
+        },
+        "starter_pokemon": {
+            "name": "Kaiminus",
+            "id": 158,
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/158.png"
+        },
+        "minecraft_render_type": "crossed",
+        "minecraft_username": "Kameto",
+        "session_id": 1,
+        "pokedex_caught": 296
+    },
+    {
+        "_id": "695ab7b59ce24a78befe506e",
+        "name": "Gotaga",
+        "twitch_username": "gotaga",
+        "isHidden": false,
+        "avatar_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/69e324f6-fc7d-4131-89ed-227a955637cf-profile_image-300x300.png",
+        "banner_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/ee27cf37-b9f7-4c5c-84d6-bafe15e06f4b-channel_offline_image-1920x1080.jpeg",
+        "__v": 0,
+        "socials": {
+            "twitter": "Gotaga",
+            "instagram": "Gotaga",
+            "youtube": "Gotaga",
+            "tiktok": "Gotaga"
+        },
+        "minecraft_username": "my_Gotaga",
+        "minecraft_render_type": "dungeons",
+        "session_id": 1,
+        "starter_pokemon": {
+            "name": "Poussifeu",
+            "id": 255,
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/255.png"
+        },
+        "pokedex_caught": 853
+    },
+    {
+        "_id": "695ab7b59ce24a78befe5071",
+        "name": "TheGuill84",
+        "twitch_username": "theguill84",
+        "isHidden": false,
+        "avatar_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/81b200bd-a84c-49fc-8234-26e8457e520a-profile_image-300x300.jpeg",
+        "banner_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/6c28b0d3-e295-434d-b9af-2674009e30b9-channel_offline_image-1920x1080.png",
+        "__v": 0,
+        "socials": {
+            "twitter": "TheGuill84",
+            "youtube": "TheGuill84",
+            "tiktok": "theguill84",
+            "instagram": "guillcstl"
+        },
+        "minecraft_render_type": "criss_cross",
+        "session_id": 1,
+        "starter_pokemon": {
+            "name": "Brindibou",
+            "id": 722,
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/722.png"
+        },
+        "sync_pc": false,
+        "sync_pokedex": false,
+        "sync_team": false,
+        "pokedex_caught": 897
+    },
+    {
+        "_id": "695ab8259ce24a78befe5194",
+        "name": "Antoine Daniel",
+        "twitch_username": "antoinedaniel",
+        "isHidden": false,
+        "avatar_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/7474d9d8-ab27-46c8-95f4-0c71b1878c78-profile_image-300x300.png",
+        "banner_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/155bd9d7-d35c-4d61-b490-dfbe1475e2b8-profile_banner-480.jpeg",
+        "__v": 0,
+        "socials": {
+            "instagram": "mr.antoinedaniel",
+            "youtube": "antoinedaniel-lesvod2271",
+            "tiktok": "mr.antoinedaniel"
+        },
+        "minecraft_render_type": "crossed",
+        "minecraft_username": "antoinedaniel_",
+        "session_id": 1,
+        "starter_pokemon": {
+            "name": "Brindibou",
+            "id": 722,
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/722.png"
+        },
+        "sync_pc": false,
+        "sync_pokedex": false,
+        "sync_team": false,
+        "pokedex_caught": 564
+    },
+    {
+        "_id": "6963f82bd1597c933392eeea",
+        "name": "aypierre",
+        "twitch_username": "aypierre",
+        "isHidden": false,
+        "avatar_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/172c9db1-12c0-4f13-9778-6dd3fe6bfbf4-profile_image-300x300.png",
+        "banner_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/3f86e3eb-d0b2-40bf-b728-22e3ce360bbd-profile_banner-480.png",
+        "__v": 0,
+        "socials": {
+            "instagram": "aypierre",
+            "youtube": "@aypierre",
+            "tiktok": "aypierre42",
+            "twitter": "AypierreMc"
+        },
+        "minecraft_render_type": "default",
+        "session_id": 1,
+        "minecraft_username": "aypierre",
+        "starter_pokemon": {
+            "name": "Flamiaou",
+            "id": 725,
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/725.png"
+        },
+        "pokedex_caught": 49
+    },
+    {
+        "_id": "6965192e4865115d8b11ef40",
+        "name": "Domingo",
+        "twitch_username": "domingo",
+        "isHidden": false,
+        "avatar_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/3cdae7df-600c-4833-8dfe-8d2abc5a3b25-profile_image-300x300.png",
+        "banner_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/0dab110b-246f-4747-b184-3d553f8e2e0c-profile_banner-480.png",
+        "__v": 0,
+        "socials": {
+            "twitter": "Domingo",
+            "instagram": "pa.domingo",
+            "youtube": "pa.domingo",
+            "tiktok": "domingo"
+        },
+        "minecraft_username": "DomingoPA",
+        "minecraft_render_type": "trudging",
+        "session_id": 1,
+        "starter_pokemon": {
+            "name": "Kaiminus",
+            "id": 158,
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/158.png"
+        },
+        "pokedex_caught": 37
+    },
+    {
+        "_id": "69654dc94865115d8b12895a",
+        "name": "Nagatow",
+        "twitch_username": "nagatow",
+        "isHidden": false,
+        "avatar_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/6330e085-96d7-4db1-a83b-204cc33a1a03-profile_image-300x300.png",
+        "banner_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/c9d835b3-6d27-4b84-9ece-8623ffedcf67-profile_banner-480.jpeg",
+        "__v": 0,
+        "socials": {
+            "twitter": "Nagatow12",
+            "instagram": "nagatow12_",
+            "tiktok": "nagatow12_",
+            "youtube": "nagatow12"
+        },
+        "minecraft_render_type": "crossed",
+        "minecraft_username": "Nagatow_",
+        "session_id": 1,
+        "starter_pokemon": {
+            "name": "Moustillon",
+            "id": 501,
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/501.png"
+        },
+        "sync_pc": false,
+        "sync_pokedex": false,
+        "sync_team": false,
+        "pokedex_caught": 950
+    },
+    {
+        "_id": "69656d964865115d8b12fa8f",
+        "name": "tpk",
+        "twitch_username": "tpk_live",
+        "isHidden": false,
+        "avatar_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/74010059-648b-403a-98ca-179f29ec6d62-profile_image-300x300.png",
+        "banner_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/e4834bb0-9242-4efd-a793-6e0e5bf73ecb-profile_banner-480.jpeg",
+        "__v": 0,
+        "socials": {
+            "tiktok": "tpk_live",
+            "youtube": "tpk_live",
+            "twitter": "tpk_live",
+            "instagram": "tpk_live"
+        },
+        "minecraft_render_type": "default",
+        "session_id": 1,
+        "minecraft_username": "TPK_live",
+        "pokedex_caught": 0
+    },
+    {
+        "_id": "6966663f4cf6763eb13f6ba0",
+        "name": "Sundae",
+        "twitch_username": "sundae",
+        "isHidden": false,
+        "avatar_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/5c9335f8-cc6c-45aa-970e-70b9e28e8843-profile_image-300x300.png",
+        "banner_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/158c9673-da4d-4aa1-8f66-375378684dfa-profile_banner-480.png",
+        "__v": 0,
+        "socials": {
+            "twitter": "LADYSUNDAE",
+            "instagram": "ladysundae_",
+            "tiktok": "ladysundae",
+            "youtube": "LadySundae"
+        },
+        "minecraft_render_type": "pointing",
+        "minecraft_username": "Sundae__",
+        "session_id": 1,
+        "starter_pokemon": {
+            "name": "Otaquin",
+            "id": 728,
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/728.png"
+        },
+        "pokedex_caught": 0
+    },
+    {
+        "_id": "696667744cf6763eb13f7ccd",
+        "name": "clem_mlrt",
+        "twitch_username": "clem_mlrt",
+        "isHidden": false,
+        "avatar_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/05b514dc-0f57-4791-ba97-225b2fa36f4f-profile_image-300x300.png",
+        "banner_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/538b1154-0580-4163-a835-1fc32c71e5e8-profile_banner-480.png",
+        "__v": 0,
+        "socials": {
+            "youtube": "clem_mlrt",
+            "tiktok": "clem_mlrt",
+            "twitter": "clem_mlrt",
+            "instagram": "clem_mlrt"
+        },
+        "minecraft_render_type": "default",
+        "session_id": 1,
+        "starter_pokemon": {
+            "name": "Gobou",
+            "id": 258,
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/258.png"
+        },
+        "pokedex_caught": 0
+    },
+    {
+        "_id": "696669cf4cf6763eb13f9eb7",
+        "name": "Mastu",
+        "twitch_username": "mastu",
+        "isHidden": false,
+        "avatar_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/64e280b4-d6a1-4819-922b-9d4f8c80a3c7-profile_image-300x300.png",
+        "banner_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/cbb017a8-4d8c-4573-9ff9-ff166568cfe9-channel_offline_image-1920x1080.jpeg",
+        "__v": 0,
+        "socials": {
+            "twitter": "Mastu",
+            "tiktok": "mastulipe",
+            "instagram": "mastuu_",
+            "youtube": "Mastu"
+        },
+        "minecraft_render_type": "criss_cross",
+        "minecraft_username": "Mastu_",
+        "starter_pokemon": {
+            "name": "Salamèche",
+            "id": 4,
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/4.png"
+        },
+        "session_id": 1,
+        "pokedex_caught": 645
+    },
+    {
+        "_id": "696669cf4cf6763eb13f9eba",
+        "name": "Terracid",
+        "twitch_username": "terracid",
+        "isHidden": false,
+        "avatar_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/terracid-profile_image-d0b3a49fe9db5777-300x300.jpeg",
+        "banner_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/5e5872f2-e07d-44fb-8024-95f286652d81-channel_offline_image-1920x1080.jpeg",
+        "__v": 0,
+        "socials": {
+            "twitter": "terracid",
+            "instagram": "terracid",
+            "tiktok": "terracid",
+            "youtube": "wankilfr"
+        },
+        "minecraft_render_type": "default",
+        "starter_pokemon": {
+            "name": "Grenousse",
+            "id": 656,
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/656.png"
+        },
+        "session_id": 1,
+        "minecraft_username": "Terraciid",
+        "sync_pc": false,
+        "sync_pokedex": false,
+        "sync_team": false,
+        "pokedex_caught": 804
+    },
+    {
+        "_id": "696669cf4cf6763eb13f9ebd",
+        "name": "Laink",
+        "twitch_username": "laink",
+        "isHidden": false,
+        "avatar_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/51519e66-e6a1-426a-84f6-d57497076544-profile_image-300x300.png",
+        "banner_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/laink-channel_offline_image-0f640720dd82dc9c-1920x1080.jpeg",
+        "__v": 0,
+        "socials": {
+            "twitter": "laink",
+            "instagram": "lainkk",
+            "youtube": "wankilfr",
+            "tiktok": "lainkk"
+        },
+        "minecraft_render_type": "pointing",
+        "minecraft_username": "Lainkk",
+        "starter_pokemon": {
+            "name": "Kaiminus",
+            "id": 158,
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/158.png"
+        },
+        "session_id": 1,
+        "pokedex_caught": 700
+    },
+    {
+        "_id": "696669cf4cf6763eb13f9ec0",
+        "name": "WankilStudio",
+        "twitch_username": "wankilstudio",
+        "isHidden": true,
+        "avatar_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/b39c64b1-e97c-4d1c-8831-d633adbaf7c2-profile_image-300x300.png",
+        "banner_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/faffb4af-afa8-46cb-a1b6-2ed4bafba66c-channel_offline_image-1920x1080.jpeg",
+        "__v": 0,
+        "socials": {
+            "youtube": "wankilfr",
+            "twitter": "WankilStudio",
+            "instagram": "wankil.studio",
+            "tiktok": "wankil.std"
+        },
+        "minecraft_render_type": "default",
+        "session_id": 1,
+        "pokedex_caught": 0
+    },
+    {
+        "_id": "69669d1e4cf6763eb140cfb7",
+        "name": "Brybry",
+        "twitch_username": "brybry",
+        "isHidden": false,
+        "avatar_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/d7188985-55a5-4097-8a55-9273addf9063-profile_image-300x300.png",
+        "banner_url": "",
+        "__v": 0,
+        "socials": {
+            "twitter": "BrybryPokebip",
+            "youtube": "BrybryP"
+        },
+        "minecraft_render_type": "default",
+        "minecraft_username": "Brybry_",
+        "session_id": 1,
+        "starter_pokemon": {
+            "name": "Flamiaou",
+            "id": 725,
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/725.png"
+        },
+        "pokedex_caught": 215
+    },
+    {
+        "_id": "69669d2e4cf6763eb140e4fe",
+        "name": "Kaatsup",
+        "twitch_username": "kaatsup",
+        "isHidden": false,
+        "avatar_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/3a9d73b4-1fd6-4c13-b5ca-a22bdab43cc6-profile_image-300x300.png",
+        "banner_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/cb271634-bc08-4893-85ac-3ab91efd8caa-profile_banner-480.png",
+        "__v": 0,
+        "socials": {
+            "twitter": "Kaatsup",
+            "instagram": "Kaatsup",
+            "youtube": "Kaatsup",
+            "tiktok": "Kaatsup"
+        },
+        "minecraft_render_type": "criss_cross",
+        "session_id": 1,
+        "starter_pokemon": {
+            "name": "Héricendre",
+            "id": 155,
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/155.png"
+        },
+        "sync_pc": false,
+        "sync_pokedex": false,
+        "sync_team": false,
+        "pokedex_caught": 462
+    },
+    {
+        "_id": "6966b3a04cf6763eb141a4ce",
+        "name": "Nikof",
+        "twitch_username": "nikof",
+        "isHidden": false,
+        "avatar_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/6be7dd51-05b0-4e38-a8b8-44a29702bf1f-profile_image-300x300.png",
+        "banner_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/8483cd47-8a50-4380-a523-3d79031c0775-profile_banner-480.jpeg",
+        "__v": 0,
+        "socials": {
+            "twitter": "Nikof",
+            "instagram": "nikof_ftn",
+            "tiktok": "nikof",
+            "youtube": "Nikof_TV"
+        },
+        "minecraft_render_type": "criss_cross",
+        "minecraft_username": "Nikof_",
+        "session_id": 1,
+        "starter_pokemon": {
+            "name": "Grenousse",
+            "id": 656,
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/656.png"
+        },
+        "sync_pc": false,
+        "sync_pokedex": false,
+        "sync_team": false,
+        "pokedex_caught": 777
+    },
+    {
+        "_id": "6966d4d8bfc7ba8b60304993",
+        "name": "DrFeelgood",
+        "twitch_username": "drfeelgood",
+        "isHidden": false,
+        "avatar_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/2bdafcae-2804-4c22-adf1-3a325a91cec2-profile_image-300x300.png",
+        "banner_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/c0336086-cec5-4751-a370-cbe9026b0787-profile_banner-480.jpeg",
+        "__v": 0,
+        "socials": {
+            "instagram": "alexdrfeelgood",
+            "tiktok": "alex.dfg",
+            "youtube": "DFG_DrFeelgood",
+            "twitter": "LoL_DFG"
+        },
+        "minecraft_render_type": "trudging",
+        "minecraft_username": "DFG_DrFeelgood",
+        "session_id": 1,
+        "starter_pokemon": {
+            "name": "Chochodile",
+            "id": 909,
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/909.png"
+        },
+        "pokedex_caught": 690
+    },
+    {
+        "_id": "6966da14bfc7ba8b60307cf5",
+        "name": "Bytell2",
+        "twitch_username": "bytell2",
+        "isHidden": false,
+        "avatar_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/2e16cf4e-15ec-46ae-b8f0-9f9b0677a086-profile_image-300x300.png",
+        "banner_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/c6d992e2-8297-4391-a359-b0ac166d4bd9-profile_banner-480.jpeg",
+        "__v": 0,
+        "socials": {
+            "tiktok": "Bytell2",
+            "youtube": "Bytell2",
+            "twitter": "Bytell2",
+            "instagram": "Bytell2"
+        },
+        "minecraft_render_type": "pointing",
+        "session_id": 1,
+        "minecraft_username": "bytell2",
+        "starter_pokemon": {
+            "name": "Ouisticram",
+            "id": 390,
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/390.png"
+        },
+        "sync_pc": false,
+        "sync_pokedex": false,
+        "sync_team": false,
+        "pokedex_caught": 430
+    },
+    {
+        "_id": "6966da34bfc7ba8b60309039",
+        "name": "ZeratoR",
+        "twitch_username": "zerator",
+        "isHidden": false,
+        "avatar_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/599b546a-c27f-4684-93ff-5eeecd01fb2b-profile_image-300x300.png",
+        "banner_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/409de913-f4ba-4efa-85e4-70bac6bc61e3-profile_banner-480.jpeg",
+        "__v": 0,
+        "socials": {
+            "instagram": "zerator",
+            "tiktok": "zerator",
+            "youtube": "zerator",
+            "twitter": "zerator"
+        },
+        "minecraft_render_type": "trudging",
+        "session_id": 1,
+        "starter_pokemon": {
+            "name": "Tortank",
+            "id": 9,
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/9.png"
+        },
+        "pokedex_caught": 458
+    },
+    {
+        "_id": "6966daa2bfc7ba8b6030a74d",
+        "name": "Mickalow",
+        "twitch_username": "mickalow",
+        "isHidden": false,
+        "avatar_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/ee654a3e-a4b7-4ff7-b2ab-95c45cd63c7c-profile_image-300x300.png",
+        "banner_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/6e131bed-7186-40aa-b8a1-1f972a8cb03b-profile_banner-480.png",
+        "__v": 0,
+        "socials": {
+            "tiktok": "mickalow_",
+            "youtube": "Mickalow",
+            "instagram": "mickalow_",
+            "twitter": "Mickalow"
+        },
+        "minecraft_render_type": "default",
+        "session_id": 1,
+        "starter_pokemon": {
+            "name": "Grenousse",
+            "id": 656,
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/656.png"
+        },
+        "minecraft_username": "Mickaplow",
+        "sync_pc": false,
+        "sync_pokedex": false,
+        "sync_team": false,
+        "pokedex_caught": 338
+    },
+    {
+        "_id": "6967047b8c05493495655aa6",
+        "name": "JimmyBoyyy",
+        "twitch_username": "jimmyboyyy",
+        "isHidden": false,
+        "avatar_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/7b605ae5-525e-44b1-8335-0ff05873cdc2-profile_image-300x300.png",
+        "banner_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/76ce83ef-5c79-4fe8-91c0-cb693efacb93-profile_banner-480.png",
+        "__v": 0,
+        "minecraft_render_type": "criss_cross",
+        "minecraft_username": "JimmyBoyyy",
+        "socials": {
+            "instagram": "jimmyboyyy_",
+            "tiktok": "jimmyb0yyy",
+            "youtube": "JimmyBoyyy",
+            "twitter": "JimmyBoyyy_"
+        },
+        "session_id": 1,
+        "starter_pokemon": {
+            "name": "Larméléon",
+            "id": 816,
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/816.png"
+        },
+        "sync_pc": false,
+        "sync_pokedex": false,
+        "sync_team": false,
+        "pokedex_caught": 936
+    },
+    {
+        "_id": "696704d48c05493495655ee6",
+        "name": "HortyUnderscore",
+        "twitch_username": "hortyunderscore",
+        "isHidden": false,
+        "avatar_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/16c92559-4e54-4cef-8571-90092cd7d27d-profile_image-300x300.jpeg",
+        "banner_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/a753f74e-bd27-4c9c-b87c-fa7afa135a89-profile_banner-480.png",
+        "__v": 0,
+        "minecraft_render_type": "kicking",
+        "minecraft_username": "Horty_",
+        "socials": {
+            "twitter": "HortyUnderscore",
+            "instagram": "HortyUnderscore",
+            "tiktok": "HortyUnderscore",
+            "youtube": "HortyUnderscore"
+        },
+        "session_id": 1,
+        "starter_pokemon": {
+            "name": "Arcko",
+            "id": 252,
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/252.png"
+        },
+        "pokedex_caught": 0
+    },
+    {
+        "_id": "6967149f8c05493495656ee2",
+        "name": "Camille_Cqb",
+        "twitch_username": "camille_cqb",
+        "isHidden": false,
+        "avatar_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/a3c8ff50-ea83-4506-a870-d4988ddbf608-profile_image-300x300.png",
+        "banner_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/646fad4e-8bdf-48c7-9a6f-50c1914e3b4f-profile_banner-480.jpeg",
+        "__v": 0,
+        "minecraft_render_type": "crossed",
+        "minecraft_username": "CamilleCqb",
+        "socials": {
+            "twitter": "Camille_Cqb",
+            "instagram": "camille_cqb",
+            "tiktok": "camille_cqb"
+        },
+        "session_id": 1,
+        "starter_pokemon": {
+            "name": "Salamèche",
+            "id": 4,
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/4.png"
+        },
+        "sync_pc": false,
+        "sync_pokedex": false,
+        "sync_team": false,
+        "pokedex_caught": 411
+    },
+    {
+        "_id": "6967150f8c05493495657146",
+        "name": "Fukano",
+        "twitch_username": "fukano",
+        "isHidden": false,
+        "avatar_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/fukano-profile_image-4d046e69aa55f2d3-300x300.jpeg",
+        "banner_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/b283f272-ceb2-4bd3-9995-4b1fec5195f3-profile_banner-480.png",
+        "__v": 0,
+        "minecraft_render_type": "pointing",
+        "minecraft_username": "Fukano",
+        "socials": {
+            "instagram": "thomas.fukano",
+            "youtube": "Fuuukano",
+            "twitter": "Fuuukano"
+        },
+        "session_id": 1,
+        "starter_pokemon": {
+            "name": "Chochodile",
+            "id": 909,
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/909.png"
+        },
+        "pokedex_caught": 926
+    },
+    {
+        "_id": "6967153b8c0549349565735d",
+        "name": "Grimkujow",
+        "twitch_username": "grimkujow",
+        "isHidden": false,
+        "avatar_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/afbf58f0-b2ef-49d6-b504-d2639de41a77-profile_image-300x300.png",
+        "banner_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/6429c425-34e8-4fad-8693-4acc3a443716-profile_banner-480.jpeg",
+        "__v": 0,
+        "minecraft_render_type": "criss_cross",
+        "minecraft_username": "Grimkujow",
+        "socials": {
+            "twitter": "Grimkujow_",
+            "instagram": "grimkujow",
+            "tiktok": "grimkujow",
+            "youtube": "grimkujow"
+        },
+        "session_id": 1,
+        "starter_pokemon": {
+            "name": "Flambino",
+            "id": 813,
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/813.png"
+        },
+        "pokedex_caught": 0
+    },
+    {
+        "_id": "696716578c05493495657553",
+        "name": "NakaStream",
+        "twitch_username": "nakastream",
+        "isHidden": false,
+        "avatar_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/5edeccc3-9f0d-414b-a79c-960f7b58d5a0-profile_image-300x300.png",
+        "banner_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/a1ac7c9f-480a-412f-b92a-04b5f2285f6a-profile_banner-480.png",
+        "__v": 0,
+        "minecraft_render_type": "pointing",
+        "minecraft_username": "NakaStream",
+        "socials": {
+            "twitter": "NakaStream",
+            "instagram": "nakastream",
+            "youtube": "Nakavideos",
+            "tiktok": "nakastream"
+        },
+        "session_id": 1,
+        "starter_pokemon": {
+            "name": "Poussifeu",
+            "id": 255,
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/255.png"
+        },
+        "pokedex_caught": 362
+    },
+    {
+        "_id": "696717338c054934956577c4",
+        "name": "Sakor_",
+        "twitch_username": "sakor_",
+        "isHidden": false,
+        "avatar_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/9048e22a-75cc-451d-b318-1d26e9be8cea-profile_image-300x300.png",
+        "banner_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/6e63c226-0fbf-4ca7-ba4f-dbba662a10fd-profile_banner-480.jpeg",
+        "__v": 0,
+        "minecraft_render_type": "crossed",
+        "minecraft_username": "SakorRos",
+        "socials": {
+            "twitter": "LRB_LoL",
+            "instagram": "sakorlrb",
+            "youtube": "Sakor_",
+            "tiktok": "sakortwitch"
+        },
+        "session_id": 1,
+        "starter_pokemon": {
+            "name": "Brindibou",
+            "id": 722,
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/722.png"
+        },
+        "pokedex_caught": 835
+    },
+    {
+        "_id": "6967bbf6f984a16d3662397b",
+        "name": "Theorus_",
+        "twitch_username": "theorus_",
+        "isHidden": false,
+        "avatar_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/8d3e9b0c-7cf3-4f4e-9cf0-cdd039cf33bd-profile_image-300x300.png",
+        "banner_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/36d62d28-5a34-4f20-88e6-f33be21bfdc2-profile_banner-480.jpeg",
+        "__v": 0,
+        "minecraft_render_type": "dungeons",
+        "minecraft_username": "Theorus_",
+        "socials": {
+            "twitter": "Theorus_",
+            "instagram": "theoruslerouge",
+            "youtube": "Theorus",
+            "tiktok": "theorus_"
+        },
+        "session_id": 1,
+        "starter_pokemon": {
+            "name": "Ouisticram",
+            "id": 390,
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/390.png"
+        },
+        "sync_pc": false,
+        "sync_pokedex": false,
+        "sync_team": false,
+        "pokedex_caught": 564
+    },
+    {
+        "_id": "6967bc22f984a16d36628ab6",
+        "name": "Trixy",
+        "twitch_username": "xo_trixy",
+        "isHidden": false,
+        "avatar_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/5466b371-98b5-4b10-9073-c7910c82503b-profile_image-300x300.png",
+        "banner_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/babb9517-cb84-4022-85ad-006628539116-profile_banner-480.png",
+        "__v": 0,
+        "minecraft_render_type": "criss_cross",
+        "minecraft_username": "XoTrixy",
+        "socials": {
+            "twitter": "xo_Trixy",
+            "instagram": "xo.trixy",
+            "youtube": "Trixy_XO",
+            "tiktok": "xo_trixy"
+        },
+        "session_id": 1,
+        "starter_pokemon": {
+            "name": "Poussifeu",
+            "id": 255,
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/255.png"
+        },
+        "pokedex_caught": 0
+    },
+    {
+        "_id": "6967bd08f984a16d3662fd02",
+        "name": "Julgane",
+        "twitch_username": "julgane",
+        "isHidden": false,
+        "avatar_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/2705bdef-ec8d-4ea4-af14-030a35dacdc0-profile_image-300x300.png",
+        "banner_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/d9481add-b2e2-4ef2-9157-fbad21c30f09-profile_banner-480.png",
+        "__v": 0,
+        "minecraft_render_type": "crossed",
+        "minecraft_username": "Julgane",
+        "socials": {
+            "twitter": "Julgane",
+            "instagram": "julgane_",
+            "youtube": "Julgane",
+            "tiktok": "julgane"
+        },
+        "session_id": 1,
+        "starter_pokemon": {
+            "name": "Ouisticram",
+            "id": 390,
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/390.png"
+        },
+        "sync_pc": false,
+        "sync_pokedex": false,
+        "sync_team": false,
+        "pokedex_caught": 820
+    },
+    {
+        "_id": "6967bd5bf984a16d36635111",
+        "name": "Gius",
+        "twitch_username": "gius",
+        "isHidden": false,
+        "avatar_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/61b15b47-c6ca-40fc-8293-a822c3d8eed6-profile_image-300x300.png",
+        "banner_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/44f44e07-c331-4b07-a888-e1ee47490f8f-profile_banner-480.jpeg",
+        "__v": 0,
+        "minecraft_render_type": "trudging",
+        "minecraft_username": "GiusTV",
+        "socials": {
+            "twitter": "GiusTV",
+            "instagram": "giustv",
+            "tiktok": "giusttv",
+            "youtube": "GiusYoutube"
+        },
+        "session_id": 1,
+        "starter_pokemon": {
+            "name": "Carapuce",
+            "id": 7,
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/7.png"
+        },
+        "pokedex_caught": 0
+    },
+    {
+        "_id": "6967bf49f984a16d36649327",
+        "name": "BagheraJones",
+        "twitch_username": "bagherajones",
+        "isHidden": false,
+        "avatar_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/5f161f8d-ef6a-4276-b6ba-4639df412aab-profile_image-300x300.png",
+        "banner_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/b0c28658-31eb-4bbe-bc27-cc0148b6585c-profile_banner-480.jpeg",
+        "__v": 0,
+        "minecraft_render_type": "pointing",
+        "minecraft_username": "BagheraJones",
+        "socials": {
+            "twitter": "Baghera__Jones",
+            "instagram": "bagherajones",
+            "youtube": "BagheraJonesLive",
+            "tiktok": "bagherajones"
+        },
+        "session_id": 1,
+        "starter_pokemon": {
+            "name": "Lianaja",
+            "id": 496,
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/496.png"
+        },
+        "pokedex_caught": 173
+    },
+    {
+        "_id": "6967c17ff984a16d36656720",
+        "name": "AngleDroit",
+        "twitch_username": "angledroit",
+        "isHidden": false,
+        "avatar_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/a10c6842-c915-4cce-8779-507791763de8-profile_image-300x300.png",
+        "banner_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/ce188ab8-9773-42d7-9cf0-7397cb426b32-profile_banner-480.jpeg",
+        "__v": 0,
+        "minecraft_render_type": "dungeons",
+        "socials": {
+            "twitter": "AngleDroit_",
+            "instagram": "angledroit_",
+            "youtube": "angledroit1117",
+            "tiktok": "angledroit__"
+        },
+        "minecraft_username": "Angle_Droit",
+        "session_id": 1,
+        "starter_pokemon": {
+            "name": "Salamèche",
+            "id": 4,
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/4.png"
+        },
+        "pokedex_caught": 232
+    },
+    {
+        "_id": "6967c229bd6220a57db321f2",
+        "name": "ChloeRamdani",
+        "twitch_username": "chloeramdani",
+        "isHidden": false,
+        "avatar_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/eb338375-acb1-409f-9d45-9ec131c6004b-profile_image-300x300.png",
+        "banner_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/17073329-f206-47df-aa08-de878d2c9eaa-profile_banner-480.png",
+        "__v": 0,
+        "minecraft_render_type": "crossed",
+        "minecraft_username": "ChloeRamdanii",
+        "socials": {
+            "twitter": "ChloeRamdani",
+            "instagram": "chloeramdani",
+            "youtube": "chloeramdani",
+            "tiktok": "chloe.ramdani"
+        },
+        "session_id": 1,
+        "starter_pokemon": {
+            "name": "Tiplouf",
+            "id": 393,
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/393.png"
+        },
+        "sync_pc": false,
+        "sync_pokedex": false,
+        "sync_team": false,
+        "pokedex_caught": 661
+    },
+    {
+        "_id": "6967c25bbd6220a57db374ce",
+        "name": "Gom4rt",
+        "twitch_username": "gom4rt",
+        "isHidden": false,
+        "avatar_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/03444908-7fe5-4d3c-9dcf-a59ced6fcf0c-profile_image-300x300.png",
+        "banner_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/844ad15d-a8e7-4c9a-b04d-68b4998f9e2f-profile_banner-480.png",
+        "__v": 0,
+        "minecraft_render_type": "dungeons",
+        "minecraft_username": "Gom4rt_",
+        "socials": {
+            "twitter": "Gom4rt_",
+            "instagram": "gom4rt",
+            "youtube": "Gom4rt",
+            "tiktok": "gom4rt_"
+        },
+        "session_id": 1,
+        "starter_pokemon": {
+            "name": "Carapuce",
+            "id": 7,
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/7.png"
+        },
+        "pokedex_caught": 330
+    },
+    {
+        "_id": "6967c2c6bd6220a57db41aa1",
+        "name": "Joueur_du_Grenier",
+        "twitch_username": "joueur_du_grenier",
+        "isHidden": false,
+        "avatar_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/68296fe2-cee7-42dd-b241-6535084df12a-profile_image-300x300.png",
+        "banner_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/860da0b8-7af3-419f-8ba9-1fe8df6ade0e-profile_banner-480.png",
+        "__v": 0,
+        "minecraft_render_type": "kicking",
+        "minecraft_username": "Joueur_du_grenie",
+        "socials": {
+            "twitter": "Frederic_Molas",
+            "instagram": "joueur_du_grenier",
+            "youtube": "joueurdugrenier",
+            "tiktok": "joueurdugrenier.yt"
+        },
+        "session_id": 1,
+        "starter_pokemon": {
+            "name": "Salamèche",
+            "id": 4,
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/4.png"
+        },
+        "pokedex_caught": 29
+    },
+    {
+        "_id": "6967c2f8bd6220a57db4669e",
+        "name": "KennyStream",
+        "twitch_username": "kennystream",
+        "isHidden": false,
+        "avatar_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/85a6dff5-2ad1-4866-9f64-eba43b0e4402-profile_image-300x300.png",
+        "banner_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/beb8fab2-5c3a-47b8-ad18-0b5097d718a4-profile_banner-480.png",
+        "__v": 0,
+        "minecraft_render_type": "criss_cross",
+        "minecraft_username": "KennyStream",
+        "socials": {
+            "twitter": "KennyStream",
+            "instagram": "kennysurinsta",
+            "youtube": "kennyreplay",
+            "tiktok": "kennystream"
+        },
+        "session_id": 1,
+        "starter_pokemon": {
+            "name": "Ouisticram",
+            "id": 390,
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/390.png"
+        },
+        "pokedex_caught": 445
+    },
+    {
+        "_id": "6967c32abd6220a57db4c6cd",
+        "name": "KyriaTV",
+        "twitch_username": "kyriatv",
+        "isHidden": false,
+        "avatar_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/d619fc04-a728-4f49-b75e-bd5ded0f8d7d-profile_image-300x300.jpeg",
+        "banner_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/c92038d9-87b2-4975-892c-0c2a3b40e78b-profile_banner-480.png",
+        "__v": 0,
+        "minecraft_render_type": "trudging",
+        "minecraft_username": "KyriaaTV",
+        "socials": {
+            "twitter": "Kyria_TV",
+            "instagram": "kyriatv",
+            "youtube": "KyriaTV",
+            "tiktok": "kyriatv"
+        },
+        "session_id": 1,
+        "starter_pokemon": {
+            "name": "Salamèche",
+            "id": 4,
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/4.png"
+        },
+        "pokedex_caught": 212
+    },
+    {
+        "_id": "6967c34bbd6220a57db504ab",
+        "name": "Linca",
+        "twitch_username": "linca",
+        "isHidden": false,
+        "avatar_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/8699956f-98f4-468f-b8fe-cd2e8f3b78ae-profile_image-300x300.png",
+        "banner_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/7f2be150-c497-46ed-821b-13e0e9d0062b-profile_banner-480.jpeg",
+        "__v": 0,
+        "minecraft_render_type": "default",
+        "minecraft_username": "Linc_a",
+        "socials": {
+            "twitter": "Lincamion",
+            "instagram": "lincamion",
+            "youtube": "lincavod",
+            "tiktok": "lincamion"
+        },
+        "session_id": 1,
+        "starter_pokemon": {
+            "name": "Chochodile",
+            "id": 909,
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/909.png"
+        },
+        "pokedex_caught": 279
+    },
+    {
+        "_id": "6967c374bd6220a57db542a0",
+        "name": "LittleBigWhale",
+        "twitch_username": "littlebigwhale",
+        "isHidden": false,
+        "avatar_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/63ff2bed-9e88-483f-bd4e-cc61d4b43e9c-profile_image-300x300.png",
+        "banner_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/fd973379-1504-4288-be80-c065c42bd199-profile_banner-480.jpeg",
+        "__v": 0,
+        "minecraft_render_type": "crossed",
+        "minecraft_username": "LittleBigWhale",
+        "socials": {
+            "twitter": "LittleBigWhale",
+            "instagram": "littlebigwhalee",
+            "youtube": "LittleBigWhale",
+            "tiktok": "littlebigwhalee"
+        },
+        "session_id": 1,
+        "starter_pokemon": {
+            "name": "Germignon",
+            "id": 152,
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/152.png"
+        },
+        "pokedex_caught": 0
+    },
+    {
+        "_id": "6967c43ebd6220a57db65648",
+        "name": "MaximeBiaggi",
+        "twitch_username": "maximebiaggi",
+        "isHidden": false,
+        "avatar_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/994ba4ea-98ba-4446-a923-164e575ff498-profile_image-300x300.png",
+        "banner_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/a307c6b3-d6eb-44a6-a44f-a80f1cc90dd2-profile_banner-480.png",
+        "__v": 0,
+        "minecraft_render_type": "kicking",
+        "minecraft_username": "Maxouzboub",
+        "socials": {
+            "twitter": "MaximeBiaggi",
+            "instagram": "maxime.biaggi",
+            "youtube": "MaximeBiaggi",
+            "tiktok": "maximebiaggi"
+        },
+        "session_id": 1,
+        "starter_pokemon": {
+            "name": "Carapuce",
+            "id": 7,
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/7.png"
+        },
+        "sync_pc": false,
+        "sync_pokedex": false,
+        "sync_team": false,
+        "pokedex_caught": 143
+    },
+    {
+        "_id": "6967c477bd6220a57db6a60a",
+        "name": "Mynthos",
+        "twitch_username": "mynthos",
+        "isHidden": false,
+        "avatar_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/003f0223-e33a-422a-8e7e-a06cc8c48d11-profile_image-300x300.png",
+        "banner_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/c08e830c-4f27-4b74-bfc7-94f5dc866749-profile_banner-480.png",
+        "__v": 0,
+        "minecraft_render_type": "default",
+        "minecraft_username": "Mynth0s",
+        "socials": {
+            "twitter": "Mynthos",
+            "instagram": "mynthos_tv",
+            "youtube": "Mynthostv",
+            "tiktok": "mynthostv"
+        },
+        "session_id": 1,
+        "starter_pokemon": {
+            "name": "Héricendre",
+            "id": 155,
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/155.png"
+        },
+        "pokedex_caught": 215
+    },
+    {
+        "_id": "6967c496bd6220a57db6f39a",
+        "name": "nems",
+        "twitch_username": "nems",
+        "isHidden": false,
+        "avatar_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/nems-profile_image-3be0fbfb8be25d5f-300x300.png",
+        "banner_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/99831bd2-bb3c-4735-9777-c42a7c5d1911-profile_banner-480.jpg",
+        "__v": 0,
+        "minecraft_render_type": "dungeons",
+        "minecraft_username": "nemenems",
+        "socials": {
+            "twitter": "Nems_Mt",
+            "instagram": "nemirnems",
+            "youtube": "NemsWorld",
+            "tiktok": "nems_tiktok"
+        },
+        "session_id": 1,
+        "pokedex_caught": 0
+    },
+    {
+        "_id": "6967c525bd6220a57db7b651",
+        "name": "Onutrem",
+        "twitch_username": "onutrem",
+        "isHidden": false,
+        "avatar_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/7d283c36-c52f-4b5c-8c53-c8ea4008ad4d-profile_image-300x300.png",
+        "banner_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/e11e7721-efb9-42d0-9cc8-b14fa162a626-profile_banner-480.png",
+        "__v": 0,
+        "minecraft_render_type": "default",
+        "minecraft_username": "Onutrem",
+        "socials": {
+            "twitter": "Onutrem",
+            "instagram": "onutrem",
+            "youtube": "Onutrem",
+            "tiktok": "onutrem"
+        },
+        "session_id": 1,
+        "pokedex_caught": 0
+    },
+    {
+        "_id": "6967c53cbd6220a57db7ec4e",
+        "name": "Wingo",
+        "twitch_username": "wingo",
+        "isHidden": false,
+        "avatar_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/c23e244b-8a05-4dd6-9569-5490eb97c613-profile_image-300x300.png",
+        "banner_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/263d6115-1ba1-4764-95c7-5584727516ba-profile_banner-480.png",
+        "__v": 0,
+        "minecraft_render_type": "crossed",
+        "minecraft_username": "Wingobear",
+        "socials": {
+            "twitter": "Wingo_Bear",
+            "instagram": "wingobear",
+            "youtube": "WingoBear",
+            "tiktok": "wingobear"
+        },
+        "session_id": 1,
+        "starter_pokemon": {
+            "name": "Poussifeu",
+            "id": 255,
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/255.png"
+        },
+        "pokedex_caught": 0
+    },
+    {
+        "_id": "6967d0530bca038e4fe6e673",
+        "name": "Xari",
+        "twitch_username": "xari",
+        "isHidden": false,
+        "avatar_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/86214da3-1461-44d1-a2e9-43501af29538-profile_image-300x300.jpeg",
+        "banner_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/f58a4c5c-34f4-4660-85ab-c41c7f5e9c44-profile_banner-480.png",
+        "__v": 0,
+        "minecraft_render_type": "trudging",
+        "socials": {
+            "twitter": "xari_",
+            "youtube": "xari",
+            "instagram": "xari.mp"
+        },
+        "session_id": 1,
+        "minecraft_username": "X_a_r_i",
+        "pokedex_caught": 0
+    },
+    {
+        "_id": "6967d06e0bca038e4fe72465",
+        "name": "Jirayalecochon",
+        "twitch_username": "jirayalecochon",
+        "isHidden": false,
+        "avatar_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/d842070e-6d5c-4f97-b55c-097b9e627f4a-profile_image-300x300.png",
+        "banner_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/9d31027a-daf5-40fd-beaa-55eaa3c238c7-profile_banner-480.png",
+        "__v": 0,
+        "minecraft_render_type": "trudging",
+        "socials": {
+            "twitter": "Jirayalecochon",
+            "youtube": "JirayaTV",
+            "instagram": "jirayatv_",
+            "tiktok": "jiraya_tv"
+        },
+        "session_id": 1,
+        "starter_pokemon": {
+            "name": "Grenousse",
+            "id": 656,
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/656.png"
+        },
+        "pokedex_caught": 0
+    },
+    {
+        "_id": "6967d14d0bca038e4fe81a55",
+        "name": "HyP_TV",
+        "twitch_username": "hyp_tv",
+        "isHidden": false,
+        "avatar_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/ebdd833f-1b69-49fc-8864-7084859930f9-profile_image-300x300.png",
+        "banner_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/f10983ba-6a3b-413b-957b-5ee195659714-profile_banner-480.jpeg",
+        "__v": 0,
+        "minecraft_render_type": "dungeons",
+        "socials": {
+            "instagram": "hyp_tv",
+            "youtube": "HyP_TV",
+            "tiktok": "hyp_official",
+            "twitter": "HyPOfficial"
+        },
+        "minecraft_username": "HypHypHypHypHyp",
+        "session_id": 1,
+        "starter_pokemon": {
+            "name": "Carapuce",
+            "id": 7,
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/7.png"
+        },
+        "pokedex_caught": 608
+    },
+    {
+        "_id": "6967d4480bca038e4fe9ae16",
+        "name": "Ponce",
+        "twitch_username": "ponce",
+        "isHidden": false,
+        "avatar_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/d4737061-8f00-49d9-a56f-fcb4a9230b3f-profile_image-300x300.png",
+        "banner_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/e7aff35b-39d6-43ba-b5ec-0d6d98738aa8-profile_banner-480.jpeg",
+        "__v": 0,
+        "minecraft_render_type": "pointing",
+        "socials": {
+            "instagram": "poncefleur_",
+            "youtube": "poncereplay",
+            "tiktok": "poncefleur_"
+        },
+        "session_id": 1,
+        "starter_pokemon": {
+            "name": "Bulbizarre",
+            "id": 1,
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/1.png"
+        },
+        "minecraft_username": "Poncefleur",
+        "sync_pc": false,
+        "sync_pokedex": false,
+        "sync_team": false,
+        "pokedex_caught": 83
+    },
+    {
+        "_id": "6967e54242c0212294676b7b",
+        "name": "HugoDelire",
+        "twitch_username": "hugodelire",
+        "isHidden": false,
+        "avatar_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/62ebb5cb-b21e-40dc-9ba0-7d31d6714b24-profile_image-300x300.png",
+        "banner_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/54bf22a4-8402-42fd-a2df-3821924d642e-profile_banner-480.png",
+        "__v": 0,
+        "minecraft_render_type": "kicking",
+        "session_id": 1,
+        "socials": {
+            "twitter": "HugoDelire36",
+            "youtube": "HugoDelire36",
+            "instagram": "hugodelire36"
+        },
+        "starter_pokemon": {
+            "name": "Gobou",
+            "id": 258,
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/258.png"
+        },
+        "minecraft_username": "HugoDeIire",
+        "pokedex_caught": 0
+    },
+    {
+        "_id": "6967e61942c021229468ad39",
+        "name": "Shisheyu",
+        "twitch_username": "shisheyu",
+        "isHidden": false,
+        "avatar_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/e27418ef-d1a0-416d-bb30-4d3e4fe03883-profile_image-300x300.png",
+        "banner_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/cc59a94b-75bc-42d3-a629-32ad83c2e518-profile_banner-480.jpeg",
+        "__v": 0,
+        "minecraft_render_type": "crossed",
+        "socials": {
+            "twitter": "Shisheyu",
+            "youtube": "Shisheyu",
+            "tiktok": "shisheyu",
+            "instagram": "shisheyu_"
+        },
+        "session_id": 1,
+        "minecraft_username": "Shisheyou",
+        "starter_pokemon": {
+            "name": "Clamiral",
+            "id": 503,
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/503.png"
+        },
+        "pokedex_caught": 900
+    },
+    {
+        "_id": "6967f3ac137e245a5f865a00",
+        "name": "Areliann",
+        "twitch_username": "areliann",
+        "socials": {
+            "twitter": "Areliannn",
+            "youtube": "@Areliannn",
+            "instagram": "areliannn",
+            "tiktok": "arelianntwitch"
+        },
+        "isHidden": false,
+        "avatar_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/4d589daf-a9ae-4ee6-a275-ca99f11c4545-profile_image-300x300.png",
+        "banner_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/9f29a4d8-96e0-4082-9e48-70219ce7c3c3-profile_banner-480.png",
+        "__v": 0,
+        "minecraft_render_type": "crossed",
+        "session_id": 1,
+        "minecraft_username": "ARELIANN",
+        "starter_pokemon": {
+            "name": "Salamèche",
+            "id": 4,
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/4.png"
+        },
+        "pokedex_caught": 241
+    },
+    {
+        "_id": "6967f6ac137e245a5f8ab38a",
+        "name": "Hiro_lLoL",
+        "twitch_username": "hiro_llol",
+        "socials": {
+            "twitter": "Hiro_LoL9",
+            "instagram": "hiro_llol",
+            "tiktok": "hiro_llol",
+            "youtube": "Hiro_lloll"
+        },
+        "isHidden": false,
+        "avatar_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/098fbcac-6f24-4fb5-9d07-63b1451ab192-profile_image-300x300.png",
+        "banner_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/edfc3e6e-75a1-4abc-97f7-fd95b8ade72f-profile_banner-480.jpeg",
+        "__v": 0,
+        "minecraft_render_type": "dungeons",
+        "minecraft_username": "Hiro_Ammar",
+        "session_id": 1,
+        "starter_pokemon": {
+            "name": "Bulbizarre",
+            "id": 1,
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/1.png"
+        },
+        "pokedex_caught": 0
+    },
+    {
+        "_id": "69681ce834a1b172906acf35",
+        "isHidden": false,
+        "__v": 0,
+        "name": "Lutti",
+        "socials": {
+            "twitter": "LuttiLutti_",
+            "youtube": "GamersOriginHS",
+            "tiktok": "@luttilutti",
+            "instagram": "luttilutti"
+        },
+        "twitch_username": "lutti",
+        "minecraft_render_type": "trudging",
+        "session_id": 1,
+        "avatar_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/0d7244bf-b84c-4108-b460-f2723218226f-profile_image-300x300.png",
+        "minecraft_username": "LuttiLutti78",
+        "banner_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/909d75d6-717b-43aa-b5e9-d2ef90735f2c-profile_banner-480.png",
+        "starter_pokemon": {
+            "name": "Ouistempo",
+            "id": 810,
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/810.png"
+        },
+        "pokedex_caught": 468
+    },
+    {
+        "_id": "6968339fbfe8a46717c21b48",
+        "name": "Hctuan",
+        "twitch_username": "hctuan",
+        "isHidden": false,
+        "avatar_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/5bbbe667-9f1a-4e0e-b8f7-9ecff18a2549-profile_image-300x300.png",
+        "banner_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/c801bab7-e373-4701-96eb-a341e83a1407-channel_offline_image-1920x1080.png",
+        "__v": 0,
+        "minecraft_username": "Hctuan",
+        "session_id": 1,
+        "socials": {
+            "twitter": "Hctuan_",
+            "youtube": "hctuan_",
+            "instagram": "hctuan_",
+            "tiktok": "hctuan_"
+        },
+        "minecraft_render_type": "trudging",
+        "starter_pokemon": {
+            "name": "Ouisticram",
+            "id": 390,
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/390.png"
+        },
+        "pokedex_caught": 662
+    },
+    {
+        "_id": "696833cbbfe8a46717c21f84",
+        "name": "Hexakil",
+        "twitch_username": "hexakil",
+        "isHidden": true,
+        "avatar_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/a978d6bab908c3a5-profile_image-300x300.png",
+        "banner_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/df228edfe2648fad-channel_offline_image-1920x1080.png",
+        "__v": 0,
+        "session_id": 1,
+        "socials": {
+            "twitter": "Hexakil",
+            "youtube": "Hexakil"
+        },
+        "minecraft_username": "Hexakil",
+        "minecraft_render_type": "trudging",
+        "pokedex_caught": 0
+    },
+    {
+        "_id": "69683540bfe8a46717c23d77",
+        "name": "samolito9",
+        "twitch_username": "samolito9",
+        "isHidden": true,
+        "avatar_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/0edeffca-e981-4728-bc9e-6fbd83049f2a-profile_image-300x300.png",
+        "banner_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/90c910e4-93bc-4a56-8d92-fed071980375-channel_offline_image-1920x1080.jpeg",
+        "__v": 0,
+        "socials": {
+            "twitter": "samol1t0",
+            "instagram": "samooo0440",
+            "youtube": "petitsamo",
+            "tiktok": "samolito9"
+        },
+        "minecraft_username": "samo_lito",
+        "minecraft_render_type": "dungeons",
+        "session_id": 1,
+        "pokedex_caught": 0
+    },
+    {
+        "_id": "696889be83fb36652cef4f1c",
+        "name": "GoBGG",
+        "twitch_username": "gobgg",
+        "isHidden": false,
+        "avatar_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/2935acd6-494d-4a15-b340-adbe368c1aca-profile_image-300x300.png",
+        "banner_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/d1ef40bc-e46a-4a01-a707-500c9aa4afe0-channel_offline_image-1920x1080.jpeg",
+        "__v": 0,
+        "minecraft_render_type": "trudging",
+        "socials": {
+            "twitter": "gob_gg",
+            "instagram": "gob_gg",
+            "tiktok": "gobstream",
+            "youtube": "GoBGG_YT"
+        },
+        "session_id": 1,
+        "starter_pokemon": {
+            "name": "Gobou",
+            "id": 258,
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/258.png"
+        },
+        "minecraft_username": "gobgg",
+        "pokedex_caught": 156
+    },
+    {
+        "_id": "69693159f6671d7cb1dab68f",
+        "name": "Aayley",
+        "twitch_username": "aayley",
+        "isHidden": false,
+        "avatar_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/580793d2-7c01-473a-93d2-eb418a86ab0d-profile_image-300x300.png",
+        "banner_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/114ac964-bea6-4790-8e24-19e00e09a54d-channel_offline_image-1920x1080.png",
+        "__v": 0,
+        "session_id": 1,
+        "socials": {
+            "instagram": "aayley",
+            "tiktok": "aayley",
+            "youtube": "aayley"
+        },
+        "minecraft_username": "Aayley",
+        "minecraft_render_type": "criss_cross",
+        "starter_pokemon": {
+            "name": "Héricendre",
+            "id": 155,
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/155.png"
+        },
+        "pokedex_caught": 308
+    },
+    {
+        "_id": "696a6f730f6a08b3986e8ee1",
+        "name": "Redemption",
+        "twitch_username": "redemption",
+        "isHidden": false,
+        "avatar_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/43dfe342-1593-4368-a7ed-5917da80d677-profile_image-300x300.png",
+        "banner_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/a074fe4a4ebb3249-channel_offline_image-1920x1080.png",
+        "__v": 0,
+        "socials": {
+            "twitter": "RedemptionBj",
+            "youtube": "RedEmptionBj",
+            "instagram": "redemptionpokemon",
+            "tiktok": "redemptionpokemon"
+        },
+        "minecraft_render_type": "crossed",
+        "minecraft_username": "RedemptionPkm",
+        "session_id": 1,
+        "pokedex_caught": 93
+    },
+    {
+        "_id": "696bcc8edfe73b96581d7543",
+        "name": "Nisqyy",
+        "twitch_username": "nisqyy",
+        "isHidden": false,
+        "avatar_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/2473d146-e994-4ec0-b77d-bde756d387df-profile_image-300x300.png",
+        "banner_url": "",
+        "__v": 0,
+        "socials": {
+            "twitter": "Nisqy",
+            "instagram": "nisqylol",
+            "youtube": "@nisqy9099",
+            "tiktok": "nisqylol"
+        },
+        "minecraft_render_type": "default",
+        "minecraft_username": "nisqylegoat",
+        "session_id": 1,
+        "starter_pokemon": {
+            "name": "Arcko",
+            "id": 252,
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/252.png"
+        },
+        "pokedex_caught": 0
+    },
+    {
+        "_id": "696bccb0dfe73b96581d7ba1",
+        "name": "Anyme023",
+        "twitch_username": "anyme023",
+        "isHidden": false,
+        "avatar_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/17ef7a09-3473-4ff8-85ca-e6648d392116-profile_image-300x300.png",
+        "banner_url": "",
+        "__v": 0,
+        "socials": {
+            "twitter": "Anyme023Off",
+            "tiktok": "anyme023",
+            "instagram": "anyme023",
+            "youtube": "@Anyme0233"
+        },
+        "minecraft_render_type": "kicking",
+        "session_id": 1,
+        "starter_pokemon": {
+            "name": "Tortipouss",
+            "id": 387,
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/387.png"
+        },
+        "pokedex_caught": 88
+    },
+    {
+        "_id": "696bd92354766131f73cab8b",
+        "name": "Fildrong",
+        "twitch_username": "fildrong",
+        "isHidden": false,
+        "avatar_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/2da35516-405c-4f21-ba26-f35b52d66eb2-profile_image-300x300.png",
+        "banner_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/176771d9-28dd-41fd-85ef-403c655c2bfb-channel_offline_image-1920x1080.png",
+        "__v": 0,
+        "socials": {
+            "twitter": "Fildrong",
+            "youtube": "fildrong",
+            "instagram": "fildronglevrai"
+        },
+        "minecraft_render_type": "crossed",
+        "minecraft_username": "Fildrong",
+        "session_id": 1,
+        "starter_pokemon": {
+            "name": "Flambino",
+            "id": 813,
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/813.png"
+        },
+        "pokedex_caught": 63
+    },
+    {
+        "_id": "696bf02754766131f73f4025",
+        "name": "MaitreArmand",
+        "twitch_username": "maitrearmand",
+        "isHidden": false,
+        "avatar_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/591862e8-46ad-4c6f-a5b2-25c801c06ed2-profile_image-300x300.png",
+        "banner_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/57701f83-70bd-4506-99e5-8c7785820bc5-channel_offline_image-1920x1080.jpeg",
+        "__v": 0,
+        "socials": {
+            "twitter": "MaitreArmand",
+            "youtube": "@MaitreArmand",
+            "instagram": "maitrarmand"
+        },
+        "minecraft_render_type": "dungeons",
+        "session_id": 1,
+        "minecraft_username": "MaitreArmand",
+        "starter_pokemon": {
+            "name": "Moustillon",
+            "id": 501,
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/501.png"
+        },
+        "pokedex_caught": 0
+    },
+    {
+        "_id": "696c1f59e8916143be6d560b",
+        "name": "RASKA_yt",
+        "twitch_username": "raska_yt",
+        "isHidden": true,
+        "avatar_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/91a983bf-73af-433b-8035-9235cc606582-profile_image-300x300.png",
+        "banner_url": "",
+        "__v": 0,
+        "session_id": 1,
+        "socials": {
+            "twitter": "Raska_yt",
+            "instagram": "raska",
+            "youtube": "@R4SK4",
+            "tiktok": "raska_yt"
+        },
+        "minecraft_render_type": "pointing",
+        "minecraft_username": "RASKA_yt",
+        "pokedex_caught": 0
+    },
+    {
+        "_id": "696c1f7ae8916143be6d5906",
+        "name": "WakzLoL",
+        "twitch_username": "wakzlol",
+        "isHidden": true,
+        "avatar_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/609872ce-c7d9-47ee-9557-75cdfee3dbc1-profile_image-300x300.png",
+        "banner_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/5c7f695c-00df-497b-814f-44273486af46-channel_offline_image-1920x1080.png",
+        "__v": 0,
+        "session_id": 1,
+        "socials": {
+            "twitter": "Wakzlol",
+            "instagram": "sly_wakz",
+            "tiktok": "wakzlol_",
+            "youtube": "Wakzlol"
+        },
+        "minecraft_render_type": "trudging",
+        "minecraft_username": "Wakz2",
+        "pokedex_caught": 0
+    },
+    {
+        "_id": "6971103b859e60794cfcb6af",
+        "name": "Anaee",
+        "twitch_username": "anaee",
+        "isHidden": false,
+        "avatar_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/c56f900e-57d0-4749-8303-2271501dad0d-profile_image-300x300.png",
+        "banner_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/1623bc77-9f22-4b17-8f4d-3b34ddb9777d-channel_offline_image-1920x1080.png",
+        "__v": 0,
+        "session_id": 1,
+        "socials": {
+            "twitter": "Anae_fr",
+            "instagram": "anae_fr",
+            "youtube": "anaee_ow",
+            "tiktok": "anaee_fr"
+        },
+        "minecraft_username": "AnaeeZ",
+        "minecraft_render_type": "kicking",
+        "starter_pokemon": {
+            "name": "Ouisticram",
+            "id": 390,
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/390.png"
+        },
+        "sync_pc": false,
+        "sync_pokedex": false,
+        "sync_team": false,
+        "pokedex_caught": 271
+    },
+    {
+        "_id": "69712f0efcbfa32a9652315b",
+        "name": "Flamby",
+        "twitch_username": "flamby",
+        "isHidden": false,
+        "avatar_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/d8843637-6e1b-49bd-a1fb-cc93ba4badb3-profile_image-300x300.png",
+        "banner_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/2ef0c0b7-5406-4c08-a8d2-ebee8f0c86b5-channel_offline_image-1920x1080.png",
+        "__v": 0,
+        "session_id": 1,
+        "socials": {
+            "twitter": "flambyyy_",
+            "tiktok": "flambyyy_",
+            "instagram": "flambyyy_",
+            "youtube": "@Flamby"
+        },
+        "minecraft_render_type": "kicking",
+        "minecraft_username": "Flamby_mp4",
+        "starter_pokemon": {
+            "name": "Flambino",
+            "id": 813,
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/813.png"
+        },
+        "pokedex_caught": 5
+    },
+    {
+        "_id": "6973b6b55909d6842ad907b4",
+        "name": "byilhann",
+        "twitch_username": "byilhann",
+        "isHidden": false,
+        "avatar_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/ea4b608a-2f21-432a-afca-03da7920a8a6-profile_image-300x300.png",
+        "banner_url": "",
+        "__v": 0,
+        "minecraft_render_type": "trudging",
+        "minecraft_username": "Byilhannn",
+        "session_id": 1,
+        "socials": {
+            "twitter": "byilhan_",
+            "instagram": "byilhann",
+            "tiktok": "byilhann",
+            "youtube": "@byilhan"
+        },
+        "starter_pokemon": {
+            "name": "Salamèche",
+            "id": 4,
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/4.png"
+        },
+        "pokedex_caught": 29
+    },
+    {
+        "_id": "697f9f30906ca461e39fdc12",
+        "name": "AeternaLive",
+        "twitch_username": "aeternalive",
+        "isHidden": true,
+        "sync_pokedex": false,
+        "sync_team": false,
+        "sync_pc": false,
+        "avatar_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/aeternalive-profile_image-ad82fb5fcc5f1888-300x300.jpeg",
+        "banner_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/0216efbafd4f0243-channel_offline_image-1920x1080.jpeg",
+        "__v": 0,
+        "minecraft_username": "Intankable",
+        "session_id": 1,
+        "socials": {},
+        "minecraft_render_type": "default",
+        "pokedex_caught": 0
+    }
+]
