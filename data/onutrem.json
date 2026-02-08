@@ -1,0 +1,15 @@
+{
+  "_id": "6977b4baace3d0c435eeead4",
+  "streamer_username": "onutrem",
+  "session_id": 1,
+  "pokedex": {
+    "caught": [],
+    "seen": [],
+    "shiny_caught": [],
+    "legendary_caught": [],
+    "paradox_caught": []
+  },
+  "last_updated": "2026-01-26T18:38:52.959Z",
+  "__v": 0,
+  "streamer": "onutrem"
+}

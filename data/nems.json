@@ -1,0 +1,14 @@
+{
+  "_id": "6972642ce3a1c4f004719886",
+  "streamer_username": "nems",
+  "session_id": 1,
+  "pokedex": {
+    "caught": [],
+    "seen": [],
+    "shiny_caught": [],
+    "legendary_caught": []
+  },
+  "last_updated": "2026-01-22T18:14:26.295Z",
+  "__v": 0,
+  "streamer": "nems"
+}
