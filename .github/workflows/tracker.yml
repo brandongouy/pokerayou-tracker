@@ -1,30 +1,30 @@
 name: Pokerayou Tracker
 
-permissions:
-  contents: write
-
 on:
   schedule:
-    - cron: "*/5 * * * *"
+    - cron: "*/30 * * * *" # toutes les 10 minutes
   workflow_dispatch:
 
 jobs:
-  track:
+  run-tracker:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout repo
+        uses: actions/checkout@v4
 
-      - uses: actions/setup-node@v4
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
         with:
           node-version: 20
 
-      - run: node tracker.js
+      - name: Run tracker
+        run: node tracker.js
 
-      - name: Save data
+      - name: Commit changes
         run: |
-          git config user.name "tracker-bot"
-          git config user.email "tracker@github.com"
-          git add data.json
-          git commit -m "Update pokedex data" || exit 0
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+          git add data/*.json
+          git commit -m "update pokedex data" || echo "No changes"
           git push
