@@ -1,26 +1,31 @@
 import fs from 'fs';
 
-const STREAMER = 'mastu';
-const API_URL = `https://pokerayou.info/api/streamer/${STREAMER}/pokedex`;
-const FILE = 'data.json';
+const STREAMERS_FILE = 'streamers.json';
+const DATA_DIR = 'data';
+
+// Création du dossier data si absent
+if (!fs.existsSync(DATA_DIR)) {
+  fs.mkdirSync(DATA_DIR);
+}
 
 /**
  * Appel API avec headers navigateur
  */
-async function fetchPokedex() {
-  const res = await fetch(API_URL, {
+async function fetchPokedex(streamer) {
+  const url = `https://pokerayou.info/api/streamer/${streamer}/pokedex`;
+
+  const res = await fetch(url, {
     headers: {
       'User-Agent':
         'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 ' +
         '(KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
       'Accept': 'application/json',
-      'Referer': `https://pokerayou.info/channel/${STREAMER}`,
+      'Referer': `https://pokerayou.info/channel/${streamer}`,
       'Origin': 'https://pokerayou.info'
     }
   });
 
   const json = await res.json().catch(() => null);
-
   return { status: res.status, json };
 }
 
@@ -44,36 +49,31 @@ function isValidPokedex(data) {
   );
 }
 
-async function main() {
-  console.log('▶️ Appel API…');
+async function processStreamer(streamer) {
+  console.log(`\n▶️ ${streamer} — Appel API…`);
 
-  const { status, json: current } = await fetchPokedex();
+  const { status, json: current } = await fetchPokedex(streamer);
 
-  // 🔒 Vérification API
   if (!isValidPokedex(current)) {
-    console.error('❌ Réponse API invalide');
-    console.error('Status HTTP:', status);
-    console.error('Payload reçu:', JSON.stringify(current, null, 2));
-    console.log('ℹ️ Arrêt propre (aucune donnée écrite)');
+    console.error(`❌ ${streamer} — Réponse API invalide (${status})`);
     return;
   }
 
-  // 📁 Chargement de l’état précédent (si valide)
+  // 👉 Ajout du nom du streamer dans les données
+  current.streamer = streamer;
+
+  const filePath = `${DATA_DIR}/${streamer}.json`;
+
   let previous = null;
-  if (fs.existsSync(FILE)) {
+  if (fs.existsSync(filePath)) {
     try {
-      const parsed = JSON.parse(fs.readFileSync(FILE, 'utf8'));
+      const parsed = JSON.parse(fs.readFileSync(filePath, 'utf8'));
       if (isValidPokedex(parsed)) {
         previous = parsed;
-      } else {
-        console.warn('⚠️ data.json invalide → ignoré');
       }
-    } catch {
-      console.warn('⚠️ data.json illisible → ignoré');
-    }
+    } catch { }
   }
 
-  // 🔍 Comparaison
   if (previous) {
     const newCaught = diff(
       previous.pokedex.caught,
@@ -86,25 +86,34 @@ async function main() {
     );
 
     if (newCaught.length) {
-      console.log('🟢 Nouveaux Pokémon capturés:', newCaught);
+      console.log(`🟢 ${streamer} — Nouveaux Pokémon:`, newCaught);
     }
 
     if (newShiny.length) {
-      console.log('✨ NOUVEAU SHINY !!!', newShiny);
+      console.log(`✨ ${streamer} — NOUVEAU SHINY !!!`, newShiny);
     }
 
     if (!newCaught.length && !newShiny.length) {
-      console.log('ℹ️ Aucun changement détecté');
+      console.log(`ℹ️ ${streamer} — Aucun changement`);
     }
   } else {
-    console.log('📁 Initialisation propre du fichier de données');
+    console.log(`📁 ${streamer} — Initialisation du fichier`);
   }
 
-  // 💾 Écriture finale
-  fs.writeFileSync(FILE, JSON.stringify(current, null, 2));
-  console.log('💾 data.json mis à jour');
+  fs.writeFileSync(filePath, JSON.stringify(current, null, 2));
+  console.log(`💾 ${streamer} — Données sauvegardées`);
+}
+
+async function main() {
+  const streamers = JSON.parse(
+    fs.readFileSync(STREAMERS_FILE, 'utf8')
+  );
+
+  for (const s of streamers) {
+    await processStreamer(s.twitch_username);
+  }
 }
 
 main().catch(err => {
-  console.error('❌ Erreur inattendue (attrapée):', err);
+  console.error('❌ Erreur inattendue:', err);
 });
